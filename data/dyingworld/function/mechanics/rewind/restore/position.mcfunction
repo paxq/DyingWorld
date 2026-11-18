@@ -1,0 +1,1 @@
+$execute in $(dim) run tp @s $(pos_x) $(pos_y) $(pos_z) $(rot_h) $(rot_v)

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:add",
+    "inputs": [
+        {
+            "type": "minecraft:storage",
+            "storage": "dyingworld:macro",
+            "path": "max_hp",
+            "fallback": 1
+        },
+        {
+            "type": "minecraft:storage",
+            "storage": "dyingworld:macro",
+            "path": "input",
+            "fallback": 1
+        }
+    ]
+}

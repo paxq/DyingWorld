@@ -1,0 +1,1 @@
+$item replace entity @s $(item_replace_id) from entity @e[type=item_display, tag=r$(simple_uuid).buffer_inv, limit=1, sort=nearest] hotbar.0

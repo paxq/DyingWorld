@@ -1,0 +1,2 @@
+give @s golden_apple[custom_data={life_fruit:true},consumable={}] 1
+# give @s golden_apple[item_model="minecraft:enchanted_golden_apple",item_name="Fruit of Life",custom_data={life_fruit:true},consumable={consume_seconds:1.2,animation:"drink",sound:"block.amethyst_block.fall"},enchantment_glint_override=true] 1

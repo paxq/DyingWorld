@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:round",
+  "input": {
+    "type": "minecraft:div",
+    "left": {
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:pow",
+        "base": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:add",
+            "inputs": [
+              1,
+              2.23606798
+            ]
+          },
+          "right": 2
+        },
+        "exponent": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:storage",
+              "storage": "dyingworld:macro",
+              "path": "input",
+              "fallback": 1
+            },
+            1
+          ]
+        }
+      },
+      "right": {
+        "type": "minecraft:pow",
+        "base": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": 1,
+            "right": 2.23606798
+          },
+          "right": 2
+        },
+        "exponent": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:storage",
+              "storage": "dyingworld:macro",
+              "path": "input",
+              "fallback": 1
+            },
+            1
+          ]
+        }
+      }
+    },
+    "right": 2.23606798
+  }
+}

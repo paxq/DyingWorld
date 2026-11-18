@@ -1,0 +1,1 @@
+$data modify storage dyingworld:macro temp.players[{UUID:$(UUID)}].simple_uuid set value "$(block_1)_$(block_2)_$(block_3)_$(block_4)"

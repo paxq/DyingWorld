@@ -1,0 +1,3 @@
+$execute store result score #temp global run data get storage dyingworld:macro temp.players[{UUID:$(UUID)}].current_item_slot
+$execute if score #temp global matches 0..8 run data modify storage dyingworld:macro temp.players[{UUID:$(UUID)}].item_replace_id set value "hotbar.$(current_item_slot)"
+$execute if score #temp global matches 9..35 run data modify storage dyingworld:macro temp.players[{UUID:$(UUID)}].item_replace_id set value "inventory.$(inv_slot)"

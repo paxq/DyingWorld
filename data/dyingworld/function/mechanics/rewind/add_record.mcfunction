@@ -1,0 +1,1 @@
+$execute unless data storage dyingworld:data players[{UUID:$(UUID)}] run data modify storage dyingworld:data players append value {UUID:$(UUID),snapshots:[]}

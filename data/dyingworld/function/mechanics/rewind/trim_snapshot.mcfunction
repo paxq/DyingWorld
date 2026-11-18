@@ -1,0 +1,1 @@
+$data remove storage dyingworld:data players[{UUID:$(UUID)}].snapshots[0]

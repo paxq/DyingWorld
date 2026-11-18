@@ -1,0 +1,1 @@
+$data modify storage dyingworld:data players[{UUID:$(UUID)}].snapshots append value {time:$(time),pos:$(pos),rot:$(rot),dim:"$(dim)",inv:$(inv),equip:$(equip)}

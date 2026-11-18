@@ -1,0 +1,1 @@
+$data modify storage dyingworld:macro result set from storage dyingworld:data players[{UUID:$(UUID)}]
