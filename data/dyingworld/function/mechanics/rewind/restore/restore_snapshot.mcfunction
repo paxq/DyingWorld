@@ -25,5 +25,5 @@ $execute as @s run function dyingworld:mechanics/rewind/restore/position with st
 # Force remove most recent snapshots (they are now futures that shouldnt exist)
 $data modify storage dyingworld:data temp.snapshot set from storage dyingworld:data players[{UUID:$(UUID)}].snapshots[0]
 $data modify storage dyingworld:data players[{UUID:$(UUID)}].snapshots set value []
-$data modify storage dyingworld:data players[{UUID:$(UUID)}].snapshots[0] set from storage dyingworld:data temp.snapshot
+$data modify storage dyingworld:data players[{UUID:$(UUID)}].snapshots append from storage dyingworld:data temp.snapshot
 data remove storage dyingworld:data temp.snapshot
