@@ -11,7 +11,8 @@ scoreboard objectives add in_cutscene dummy
 
 
 scoreboard players set #global_timer global 0
-scoreboard players display name #global_timer global "timer"
+scoreboard players set #session_count global 0
+scoreboard players set #session_active global 0
 
 execute unless data storage dyingworld:data players run data modify storage dyingworld:data players set value []
 execute as @a run execute unless score @s can_revive matches -1 run scoreboard players set @s can_revive 1
