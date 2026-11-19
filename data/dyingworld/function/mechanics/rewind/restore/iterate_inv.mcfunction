@@ -1,6 +1,5 @@
 # Clear on first loop
 $execute store result score #r$(simple_uuid) loop run data get storage dyingworld:macro temp.players[{UUID:$(UUID)}].inv_loop_index
-# $execute if score #r$(simple_uuid) loop matches ..0 run clear @p[nbt={UUID:$(UUID)}]
 
 # Set current item & slot
 $data modify storage dyingworld:macro temp.players[{UUID:$(UUID)}].current_item set from storage dyingworld:macro temp.players[{UUID:$(UUID)}].snapshot.inv[$(inv_loop_index)]

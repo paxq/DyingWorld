@@ -2,5 +2,5 @@
 scoreboard players set #session_active global 1
 scoreboard players add #session_count global 1
 
-# Start tiemr
+# Start timer
 function dyingworld:session/timer

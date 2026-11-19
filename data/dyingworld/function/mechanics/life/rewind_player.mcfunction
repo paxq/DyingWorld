@@ -2,7 +2,7 @@
 execute store result storage dyingworld:macro result int 1 run compute entity @s float dyingworld:fibonacci
 execute store result storage dyingworld:macro input int 1 run data get storage dyingworld:macro result
 execute store result storage dyingworld:macro result int 1 run compute entity @s float dyingworld:sub_max_health
-function dyingworld:mechanics/life/update_health with storage dyingworld:macro
+# function dyingworld:mechanics/life/update_health with storage dyingworld:macro
 
 # Restore snapshot
 scoreboard players set @s revive_countdown 2
