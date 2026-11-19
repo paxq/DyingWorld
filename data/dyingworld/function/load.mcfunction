@@ -43,6 +43,6 @@ execute as @a run execute unless score @s can_revive matches -1 run scoreboard p
 #
 # How it actually works:
 # Every ~20 ticks of a global timer, each player's data is saved in storage, along with the timestamp it was taken at.
-# This data is stored for up to 160 ticks, then deleted.
-# When a player dies, they are moved to their postion 160 ticks ago, and the rest of their saved data is cleared.
+# This data is stored for up to 140 ticks, then deleted.
+# When a player dies, they are moved to their postion 140 ticks ago, and the rest of their saved data is cleared.
 # If a player has less than 8 position backups, the earliest captured is used.
