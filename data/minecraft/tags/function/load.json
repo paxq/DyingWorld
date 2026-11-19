@@ -1,5 +1,4 @@
 {
-	"values": [
-		"dyingworld:load"
-	]
+	"replace": false,
+	"values": ["dyingworld:load"]
 }
