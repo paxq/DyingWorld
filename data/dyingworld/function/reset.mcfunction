@@ -9,3 +9,5 @@ scoreboard players reset * revive_countdown
 scoreboard players set * can_revive 1
 
 schedule clear dyingworld:session/timer
+
+# TODO: Clear snapshot storage
