@@ -8,6 +8,8 @@ scoreboard objectives add revive_countdown dummy
 scoreboard objectives add heal_count dummy
 scoreboard objectives add can_revive dummy
 scoreboard objectives add in_cutscene dummy
+scoreboard objectives add cutscene_tick dummy
+scoreboard objectives add cutscene_wait dummy
 
 
 scoreboard players set #global_timer global 0
